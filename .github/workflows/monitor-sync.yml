@@ -1,0 +1,44 @@
+name: LLM EOL Monitor Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # 每週日凌晨執行
+  workflow_dispatch: # 允許手動觸發
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run crawler
+        run: python crawler.py
+
+      - name: Commit data changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/models.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update model lifecycle data"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          force_orphan: true
