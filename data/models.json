@@ -1,0 +1,343 @@
+{
+    "bedrock": {
+        "desc": "顯示 AWS Bedrock 託管之 Foundation Models 生命週期",
+        "doc": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
+        "models": [
+            {
+                "b": "Anthropic",
+                "n": "Claude 3.7 Sonnet",
+                "s": "Legacy",
+                "d": "2026-04-28",
+                "r": "建議升級至 Claude Sonnet 4.5",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude 3.5 Sonnet v2",
+                "s": "Legacy",
+                "d": "2026-03-01",
+                "r": "建議升級至 Claude Sonnet 4.5",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude 3.5 Sonnet v1",
+                "s": "Legacy",
+                "d": "2026-03-01",
+                "r": "建議升級至 Claude Sonnet 4.5",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude 3.5 Haiku",
+                "s": "Legacy",
+                "d": "2026-06-19",
+                "r": "建議升級至 Claude Haiku 4.5",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude Opus 4",
+                "s": "Legacy",
+                "d": "2026-05-31",
+                "r": "建議升級至 Claude Opus 4.1",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude 3 Opus",
+                "s": "Legacy",
+                "d": "2026-01-15",
+                "r": "建議升級至 Opus 4.1 / Sonnet 4.5",
+                "t": "legacy"
+            },
+            {
+                "b": "Amazon",
+                "n": "Titan Image Generator G1 v2",
+                "s": "Legacy",
+                "d": "2026-06-30",
+                "r": "建議升級至 Nova Canvas",
+                "t": "legacy"
+            },
+            {
+                "b": "Stability AI",
+                "n": "Stable Diffusion XL 1.0",
+                "s": "Legacy",
+                "d": "2025-05-20",
+                "r": "建議升級至 Stable Image Core",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude 3 Sonnet",
+                "s": "EOL",
+                "d": "2025-07-21",
+                "r": "已失效，請使用 3.5/4.5",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude v2.1",
+                "s": "EOL",
+                "d": "2025-07-21",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude v2",
+                "s": "EOL",
+                "d": "2025-07-21",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude Instant",
+                "s": "EOL",
+                "d": "2025-07-21",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Cohere",
+                "n": "Cohere Command / Light",
+                "s": "EOL",
+                "d": "2025-08-12",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Meta",
+                "n": "Llama 2 13b-chat-v1",
+                "s": "EOL",
+                "d": "2024-10-30",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Meta",
+                "n": "Llama 2 70b-chat-v1",
+                "s": "EOL",
+                "d": "2024-10-30",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Amazon",
+                "n": "Titan Text G1 (Premier/Express/Lite)",
+                "s": "EOL",
+                "d": "2025-08-15",
+                "r": "已失效，建議使用 Nova",
+                "t": "legacy"
+            },
+            {
+                "b": "AI21 Labs",
+                "n": "Jamba-Instruct",
+                "s": "EOL",
+                "d": "2025-08-01",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Stability AI",
+                "n": "Stability 3 Large / Ultra v1",
+                "s": "EOL",
+                "d": "2025-09-04",
+                "r": "已失效",
+                "t": "legacy"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude Sonnet 4.5",
+                "s": "Active",
+                "d": "2026-09-29",
+                "r": "最新旗艦模型",
+                "t": "active"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude Opus 4.1",
+                "s": "Active",
+                "d": "2026-07-31",
+                "r": "最強模型",
+                "t": "active"
+            },
+            {
+                "b": "Anthropic",
+                "n": "Claude Haiku 4.5",
+                "s": "Active",
+                "d": "2026-10-01",
+                "r": "極速模型",
+                "t": "active"
+            },
+            {
+                "b": "Meta",
+                "n": "Llama 4 Scout / Maverick 17B",
+                "s": "Active",
+                "d": "2026-04-28",
+                "r": "第四代新模型",
+                "t": "active"
+            },
+            {
+                "b": "Meta",
+                "n": "Llama 3.3 70B",
+                "s": "Active",
+                "d": "2025-12-19",
+                "r": "現行主力",
+                "t": "active"
+            },
+            {
+                "b": "Meta",
+                "n": "Llama 3.1 405B",
+                "s": "Active",
+                "d": "2025-07-23",
+                "r": "超大型模型",
+                "t": "active"
+            },
+            {
+                "b": "Amazon",
+                "n": "Nova Pro / Lite / Micro",
+                "s": "Active",
+                "d": "2025-12-04",
+                "r": "Amazon 原生新模型",
+                "t": "active"
+            },
+            {
+                "b": "DeepSeek",
+                "n": "DeepSeek-R1",
+                "s": "Active",
+                "d": "2026-03-10",
+                "r": "強大推理模型",
+                "t": "active"
+            },
+            {
+                "b": "AI21 Labs",
+                "n": "Jamba 1.5 Large / Mini",
+                "s": "Active",
+                "d": "2025-09-23",
+                "r": "長文本主力",
+                "t": "active"
+            }
+        ]
+    },
+    "gcp": {
+        "desc": "顯示 Vertex AI 最新穩定版模型 (包含 Gemini 系列)",
+        "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions?hl=zh-tw",
+        "models": [
+            {
+                "b": "Google",
+                "n": "gemini-live-2.5-flash-native-audio",
+                "s": "Legacy",
+                "d": "2026-12-13",
+                "r": "即將過期，建議升級",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.5-pro",
+                "s": "Legacy",
+                "d": "2026-06-17",
+                "r": "穩定版待遷移",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.5-flash",
+                "s": "Legacy",
+                "d": "2026-06-17",
+                "r": "穩定版待遷移",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.5-flash-lite",
+                "s": "Legacy",
+                "d": "2026-07-22",
+                "r": "穩定版待遷移",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.0-flash-001",
+                "s": "Legacy",
+                "d": "2026-03-03",
+                "r": "即將過期",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-1.5-pro-001 / 002",
+                "s": "EOL",
+                "d": "2025-09-24",
+                "r": "已確定關閉日期",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-1.5-flash-001 / 002",
+                "s": "EOL",
+                "d": "2025-09-24",
+                "r": "已確定關閉日期",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-1.0-pro-001 / 002 / vision",
+                "s": "EOL",
+                "d": "2025-04-21",
+                "r": "已確定關閉日期",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "text-bison / chat-bison / code-gecko",
+                "s": "EOL",
+                "d": "2025-04-21",
+                "r": "舊版 Bison 模型已退役",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "imagegeneration@002 / 005 / 006",
+                "s": "EOL",
+                "d": "2025-09-24",
+                "r": "Imagen 舊版已退役",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.5-flash-image",
+                "s": "Active",
+                "d": "未公布",
+                "r": "現行旗艦穩定版",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-4.0-ultra / fast",
+                "s": "Active",
+                "d": "未公布",
+                "r": "新一代圖像生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "veo-3.1-generate",
+                "s": "Active",
+                "d": "未公布",
+                "r": "新一代影片生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "text-embedding-005",
+                "s": "Active",
+                "d": "未公布",
+                "r": "現行嵌入模型",
+                "t": "active"
+            }
+        ]
+    },
+    "last_update": "2026-02-08 02:32:31"
+}
