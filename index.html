@@ -421,7 +421,7 @@
                     </td>
                     <td><span class="badge status-${m.s}">${m.s}</span></td>
                     <td class="date-text ${isFuture ? 'upcoming' : ''}">
-                        ${m.d} ${getCountdown(m.d)}
+                        ${m.d} ${(platform === 'bedrock' && tab === 'active' && m.d !== '未公布') ? '<span class="countdown" style="color:#666">(no sooner than)</span>' : getCountdown(m.d)}
                     </td>
                     <td style="color: #666; font-size: 13px;">${m.r}</td>
                 </tr>
