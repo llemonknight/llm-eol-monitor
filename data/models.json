@@ -222,7 +222,7 @@
         ]
     },
     "gcp": {
-        "desc": "顯示 Vertex AI 最新穩定版模型 (包含 Gemini 系列)",
+        "desc": "顯示 Vertex AI 穩定版模型完整清單 (Gemini / Imagen / Veo / 嵌入)",
         "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions?hl=zh-tw",
         "models": [
             {
@@ -230,7 +230,7 @@
                 "n": "gemini-live-2.5-flash-native-audio",
                 "s": "Legacy",
                 "d": "2026-12-13",
-                "r": "即將過期，建議升級",
+                "r": "建議升級至最新穩定版",
                 "t": "legacy"
             },
             {
@@ -238,7 +238,7 @@
                 "n": "gemini-2.5-pro",
                 "s": "Legacy",
                 "d": "2026-06-17",
-                "r": "穩定版待遷移",
+                "r": "建議升級至 Gemini 3.x Pro",
                 "t": "legacy"
             },
             {
@@ -246,7 +246,7 @@
                 "n": "gemini-2.5-flash",
                 "s": "Legacy",
                 "d": "2026-06-17",
-                "r": "穩定版待遷移",
+                "r": "建議升級至 Gemini 3.x Flash",
                 "t": "legacy"
             },
             {
@@ -254,7 +254,15 @@
                 "n": "gemini-2.5-flash-lite",
                 "s": "Legacy",
                 "d": "2026-07-22",
-                "r": "穩定版待遷移",
+                "r": "建議升級至 Gemini 3.x Flash-Lite",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.5-flash-image",
+                "s": "Legacy",
+                "d": "2026-10-02",
+                "r": "建議升級至 Gemini 3.x Flash Image",
                 "t": "legacy"
             },
             {
@@ -262,7 +270,47 @@
                 "n": "gemini-2.0-flash-001",
                 "s": "Legacy",
                 "d": "2026-06-01",
-                "r": "即將過期",
+                "r": "即將過期，建議升級至 2.5+",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-2.0-flash-lite-001",
+                "s": "Legacy",
+                "d": "2026-06-01",
+                "r": "即將過期，建議升級至 2.5+",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-3.0-generate-002",
+                "s": "Legacy",
+                "d": "未公布",
+                "r": "建議升級至 Imagen 4.0",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-3.0-generate-001",
+                "s": "Legacy",
+                "d": "未公布",
+                "r": "建議升級至 Imagen 4.0",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-3.0-fast-generate-001",
+                "s": "Legacy",
+                "d": "未公布",
+                "r": "建議升級至 Imagen 4.0 Fast",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-3.0-capability-001",
+                "s": "Legacy",
+                "d": "未公布",
+                "r": "建議升級至 Imagen 4.0",
                 "t": "legacy"
             },
             {
@@ -270,7 +318,7 @@
                 "n": "gemini-1.5-pro-001 / 002",
                 "s": "EOL",
                 "d": "2025-05-24",
-                "r": "已確定關閉日期",
+                "r": "已淘汰，建議使用 gemini-2.0-flash+",
                 "t": "legacy"
             },
             {
@@ -278,7 +326,7 @@
                 "n": "gemini-1.5-flash-001 / 002",
                 "s": "EOL",
                 "d": "2025-05-24",
-                "r": "已確定關閉日期",
+                "r": "已淘汰，建議使用 gemini-2.0-flash-lite+",
                 "t": "legacy"
             },
             {
@@ -286,7 +334,7 @@
                 "n": "gemini-1.0-pro-001 / 002 / vision",
                 "s": "EOL",
                 "d": "2025-04-21",
-                "r": "已確定關閉日期",
+                "r": "已淘汰",
                 "t": "legacy"
             },
             {
@@ -294,7 +342,23 @@
                 "n": "text-bison / chat-bison / code-gecko",
                 "s": "EOL",
                 "d": "2025-04-21",
-                "r": "舊版 Bison 模型已退役",
+                "r": "舊版 PaLM 模型已退役",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "textembedding-gecko@001 / 002 / 003",
+                "s": "EOL",
+                "d": "2025-04-21",
+                "r": "已淘汰，建議使用 gemini-embedding-001",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "textembedding-gecko-multilingual@001",
+                "s": "EOL",
+                "d": "2025-05-24",
+                "r": "已淘汰，建議使用 gemini-embedding-001",
                 "t": "legacy"
             },
             {
@@ -302,20 +366,60 @@
                 "n": "imagegeneration@002 / 005 / 006",
                 "s": "EOL",
                 "d": "2025-09-24",
-                "r": "Imagen 舊版已退役",
+                "r": "已淘汰，建議使用 imagen-3.0+",
                 "t": "legacy"
             },
             {
                 "b": "Google",
-                "n": "gemini-2.5-flash-image",
+                "n": "imagetext (圖像字幕)",
+                "s": "EOL",
+                "d": "2025-09-24",
+                "r": "已淘汰，建議使用 gemini-2.5-flash-image",
+                "t": "legacy"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-3.1-pro",
                 "s": "Active",
-                "d": "2026-10-02",
-                "r": "現行旗艦穩定版",
+                "d": "未公布",
+                "r": "最新旗艦 Pro 模型",
                 "t": "active"
             },
             {
                 "b": "Google",
-                "n": "imagen-4.0-ultra / fast",
+                "n": "gemini-3-pro / 3-pro-image",
+                "s": "Active",
+                "d": "未公布",
+                "r": "第三代 Pro 模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-3.1-flash-image",
+                "s": "Active",
+                "d": "未公布",
+                "r": "最新 Flash 圖像模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-3-flash",
+                "s": "Active",
+                "d": "未公布",
+                "r": "第三代 Flash 模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-3.1-flash-lite",
+                "s": "Active",
+                "d": "未公布",
+                "r": "最新極速輕量模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-4.0-generate-001",
                 "s": "Active",
                 "d": "未公布",
                 "r": "新一代圖像生成",
@@ -323,10 +427,74 @@
             },
             {
                 "b": "Google",
-                "n": "veo-3.1-generate",
+                "n": "imagen-4.0-fast-generate-001",
                 "s": "Active",
                 "d": "未公布",
-                "r": "新一代影片生成",
+                "r": "新一代快速圖像生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "imagen-4.0-ultra-generate-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "超高品質圖像生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "virtual-try-on-001",
+                "s": "Active",
+                "d": "2027-01-20",
+                "r": "虛擬試穿模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "veo-3.1-generate-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "最新影片生成模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "veo-3.1-fast-generate-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "快速影片生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "veo-3.0-generate-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "影片生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "veo-3.0-fast-generate-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "快速影片生成",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "veo-2.0-generate-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "影片生成（舊版但仍可用）",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "gemini-embedding-001",
+                "s": "Active",
+                "d": "未公布",
+                "r": "新一代嵌入模型（取代 gecko）",
                 "t": "active"
             },
             {
@@ -334,10 +502,34 @@
                 "n": "text-embedding-005",
                 "s": "Active",
                 "d": "2027-04-01",
-                "r": "現行嵌入模型",
+                "r": "現行文字嵌入模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "text-embedding-004",
+                "s": "Active",
+                "d": "2027-04-01",
+                "r": "文字嵌入模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "text-multilingual-embedding-002",
+                "s": "Active",
+                "d": "2027-04-01",
+                "r": "多語言嵌入模型",
+                "t": "active"
+            },
+            {
+                "b": "Google",
+                "n": "multimodalembedding@001",
+                "s": "Active",
+                "d": "2027-04-01",
+                "r": "多模態嵌入模型",
                 "t": "active"
             }
         ]
     },
-    "last_update": "2026-03-15 14:43:30"
+    "last_update": "2026-03-15 14:57:56"
 }
