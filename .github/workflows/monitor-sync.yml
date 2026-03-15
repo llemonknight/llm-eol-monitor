@@ -1,6 +1,9 @@
 name: LLM EOL Monitor Sync
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 0 * * 0' # 每週日凌晨執行
   workflow_dispatch: # 允許手動觸發
