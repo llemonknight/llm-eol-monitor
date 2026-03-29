@@ -7,7 +7,7 @@
                 "b": "Anthropic",
                 "n": "Claude 3.7 Sonnet",
                 "s": "Legacy",
-                "d": "2026-02-24",
+                "d": "April 28, 2026",
                 "r": "建議升級至 Claude Sonnet 4.5",
                 "t": "legacy"
             },
@@ -15,7 +15,7 @@
                 "b": "Anthropic",
                 "n": "Claude 3.5 Sonnet v2",
                 "s": "Legacy",
-                "d": "2025-10-22",
+                "d": "March 1, 2026",
                 "r": "建議升級至 Claude Sonnet 4.5",
                 "t": "legacy"
             },
@@ -23,7 +23,7 @@
                 "b": "Anthropic",
                 "n": "Claude 3.5 Sonnet v1",
                 "s": "Legacy",
-                "d": "2025-07-30",
+                "d": "March 1, 2026",
                 "r": "建議升級至 Claude Sonnet 4.5",
                 "t": "legacy"
             },
@@ -31,7 +31,7 @@
                 "b": "Anthropic",
                 "n": "Claude 3.5 Haiku",
                 "s": "Legacy",
-                "d": "2026-06-19",
+                "d": "June 19, 2026",
                 "r": "建議升級至 Claude Haiku 4.5",
                 "t": "legacy"
             },
@@ -39,7 +39,7 @@
                 "b": "Anthropic",
                 "n": "Claude Opus 4",
                 "s": "Legacy",
-                "d": "2026-05-22",
+                "d": "May 31, 2026",
                 "r": "建議升級至 Claude Opus 4.1",
                 "t": "legacy"
             },
@@ -55,7 +55,7 @@
                 "b": "Amazon",
                 "n": "Titan Image Generator G1 v2",
                 "s": "Legacy",
-                "d": "2025-08-06",
+                "d": "June 30, 2026",
                 "r": "建議升級至 Nova Canvas",
                 "t": "legacy"
             },
@@ -71,7 +71,7 @@
                 "b": "Anthropic",
                 "n": "Claude 3 Sonnet",
                 "s": "EOL",
-                "d": "2025-07-21",
+                "d": "July 30, 2026",
                 "r": "已失效，請使用 3.5/4.5",
                 "t": "legacy"
             },
@@ -159,7 +159,7 @@
                 "b": "Anthropic",
                 "n": "Claude Opus 4.1",
                 "s": "Active",
-                "d": "2026-07-31",
+                "d": "May 31, 2026",
                 "r": "最強模型",
                 "t": "active"
             },
@@ -191,7 +191,7 @@
                 "b": "Meta",
                 "n": "Llama 3.1 405B",
                 "s": "Active",
-                "d": "2025-07-23",
+                "d": "July 7, 2026",
                 "r": "超大型模型",
                 "t": "active"
             },
@@ -285,7 +285,7 @@
                 "b": "Google",
                 "n": "imagen-3.0-generate-002",
                 "s": "Legacy",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "建議升級至 Imagen 4.0",
                 "t": "legacy"
             },
@@ -293,7 +293,7 @@
                 "b": "Google",
                 "n": "imagen-3.0-generate-001",
                 "s": "Legacy",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "建議升級至 Imagen 4.0",
                 "t": "legacy"
             },
@@ -301,7 +301,7 @@
                 "b": "Google",
                 "n": "imagen-3.0-fast-generate-001",
                 "s": "Legacy",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "建議升級至 Imagen 4.0 Fast",
                 "t": "legacy"
             },
@@ -309,7 +309,7 @@
                 "b": "Google",
                 "n": "imagen-3.0-capability-001",
                 "s": "Legacy",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "建議升級至 Imagen 4.0",
                 "t": "legacy"
             },
@@ -421,7 +421,7 @@
                 "b": "Google",
                 "n": "imagen-4.0-generate-001",
                 "s": "Active",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "新一代圖像生成",
                 "t": "active"
             },
@@ -429,7 +429,7 @@
                 "b": "Google",
                 "n": "imagen-4.0-fast-generate-001",
                 "s": "Active",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "新一代快速圖像生成",
                 "t": "active"
             },
@@ -437,7 +437,7 @@
                 "b": "Google",
                 "n": "imagen-4.0-ultra-generate-001",
                 "s": "Active",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "超高品質圖像生成",
                 "t": "active"
             },
@@ -469,7 +469,7 @@
                 "b": "Google",
                 "n": "veo-3.0-generate-001",
                 "s": "Active",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "影片生成",
                 "t": "active"
             },
@@ -477,7 +477,7 @@
                 "b": "Google",
                 "n": "veo-3.0-fast-generate-001",
                 "s": "Active",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "快速影片生成",
                 "t": "active"
             },
@@ -485,7 +485,7 @@
                 "b": "Google",
                 "n": "veo-2.0-generate-001",
                 "s": "Active",
-                "d": "未公布",
+                "d": "2026-06-30",
                 "r": "影片生成（舊版但仍可用）",
                 "t": "active"
             },
@@ -531,5 +531,5 @@
             }
         ]
     },
-    "last_update": "2026-03-22 02:11:19"
+    "last_update": "2026-03-29 02:27:30"
 }
